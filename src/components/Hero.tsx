@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section className="max-w-[1280px] mx-auto px-[clamp(20px,5vw,64px)] pt-[clamp(28px,4vw,56px)] pb-[clamp(40px,5vw,72px)] grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-[clamp(32px,5vw,64px)] items-center">
@@ -40,10 +42,15 @@ export default function Hero() {
             borderRight: "72px solid transparent",
           }}
         />
-        <div className="relative z-[1] w-full aspect-[4/3] rounded-[18px] shadow-[0_18px_40px_rgba(0,0,0,.12)] bg-card-border flex items-center justify-center overflow-hidden">
-          <span className="text-text-soft text-sm text-center px-4">
-            Foto principal — patrimônio / restauração
-          </span>
+        <div className="relative z-[1] w-full aspect-[4/3] rounded-[18px] shadow-[0_18px_40px_rgba(0,0,0,.12)] overflow-hidden">
+          <Image
+            src="/foto-principal.png"
+            alt="Patrimônio histórico - IACS"
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 50vw"
+            priority
+          />
         </div>
       </div>
     </section>

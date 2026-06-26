@@ -24,10 +24,10 @@ export default function Contato() {
       </p>
       <div className="relative flex gap-[14px] justify-center flex-wrap">
         <a
-          href="mailto:contato@iacs.org.br"
+          href="mailto:artes.insatituto@gmail.com"
           className="bg-teal text-white px-[38px] py-4 rounded-full font-bold text-base hover:bg-white hover:text-ink transition-colors"
         >
-          contato@iacs.org.br
+          artes.insatituto@gmail.com
         </a>
         <a
           href="#"
