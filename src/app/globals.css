@@ -1,26 +1,36 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-ink: #1D1D1A;
+  --color-ink-deep: #141412;
+  --color-teal: #16A2C4;
+  --color-teal-hover: #12879F;
+  --color-orange: #E8702A;
+  --color-yellow: #F4C20D;
+  --color-yellow-text: #B8860B;
+  --color-blue-dot: #2BA3D8;
+  --color-coral: #E8503A;
+  --color-text-muted: #55554D;
+  --color-text-soft: #7A7A70;
+  --color-badge-bg: #FEF3D4;
+  --color-card-border: #EDEDEA;
+  --color-surface: #FFFFFF;
+
+  --font-archivo: var(--font-family-archivo);
+  --font-hanken: var(--font-family-hanken);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-hanken), system-ui, sans-serif;
+  color: var(--color-ink);
+  margin: 0;
+  background: var(--color-surface);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-archivo), system-ui, sans-serif;
 }
