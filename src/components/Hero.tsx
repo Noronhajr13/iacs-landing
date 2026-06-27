@@ -12,8 +12,7 @@ export default function Hero() {
           <span className="text-orange">restaura</span>.
         </h1>
         <p className="text-[clamp(16px,1.4vw,18px)] leading-[1.6] text-text-muted mb-8 max-w-[480px]">
-          O IACS dá nova vida ao patrimônio histórico mineiro — com restauração,
-          conservação, pesquisa e exposições que celebram o legado cultural.
+          O INSTITUTO dá nova vida ao patrimônio histórico mineiro — com restauração, conservação, pesquisa e exposições que celebram o legado cultural.
         </p>
         <div className="flex gap-[14px] flex-wrap">
           <a

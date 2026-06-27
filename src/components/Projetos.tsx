@@ -3,21 +3,21 @@ import ProjetoCard from "./ProjetoCard";
 
 const projetos = [
   {
-    ano: "2022/2025",
+    ano: "2022/2026",
     titulo: "Pesquisa Histórica e Conservação de Acervos Documentais",
     subtitulo: "Arquivo Público Mineiro",
     cor: "var(--color-teal)",
     imagem: "/arquivo-publico-mineiro.png",
   },
   {
-    ano: "2023/2024",
+    ano: "2023/2025",
     titulo: "Revitalização do complexo da Usina de Marmelos Zero",
     subtitulo: "Restauração, conservação e segurança",
     cor: "var(--color-orange)",
     imagem: "/usina-marmelos.png",
   },
   {
-    ano: "2024",
+    ano: "2005/2026",
     titulo: "Grupo Cultural Meninas de Sinhá",
     subtitulo:
       "Assistência social e cultural — Cantadeiras Meninas de Sinhá e atividades comunitárias",
@@ -26,11 +26,11 @@ const projetos = [
     imagem: "/meninas-de-sinha.png",
   },
   {
-    ano: "2024/2025",
-    titulo: "AVCB e Revitalização do Complexo Arquitetônico",
-    subtitulo: "Arquivo Público Mineiro",
+    ano: "2025/2026",
+    titulo: "Restauração Artística e Arquitetônica da Igreja Matriz de Santana",
+    subtitulo: "Patos de Minas — MG. Restauração de elementos artísticos e da arquitetura do templo histórico.",
     cor: "var(--color-blue-dot)",
-    imagem: "/arquivo-publico-mineiro.png",
+    imagem: "/igreja-matriz-patos.png",
   },
 ];
 
@@ -54,31 +54,6 @@ export default function Projetos() {
         {projetos.map((p) => (
           <ProjetoCard key={p.titulo} {...p} />
         ))}
-
-        {/* Card 5 — destaque largo */}
-        <div className="col-span-full border border-card-border rounded-xl overflow-hidden bg-surface hover:shadow-[0_10px_24px_rgba(0,0,0,.09)] transition-shadow grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))]">
-          <div className="relative bg-card-border min-h-[240px]">
-            <Image
-              src="/igreja-matriz-patos.png"
-              alt="Igreja Matriz de Santana de Patos"
-              fill
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, 50vw"
-            />
-          </div>
-          <div className="p-[clamp(24px,3vw,40px)] flex flex-col justify-center border-l-[5px] border-coral">
-            <div className="font-bold text-xs tracking-[.05em] text-coral">
-              2025/2026
-            </div>
-            <div className="text-[clamp(20px,2.2vw,24px)] font-[800] leading-[1.25] mt-2">
-              Restauração Artística e Arquitetônica da Igreja Matriz de Santana
-            </div>
-            <div className="text-[14.5px] text-text-soft mt-2">
-              Patos de Minas — MG. Restauração de elementos artísticos e da
-              arquitetura do templo histórico.
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

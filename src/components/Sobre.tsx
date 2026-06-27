@@ -36,15 +36,6 @@ export default function Sobre() {
           ))}
         </div>
       </div>
-
-      <div className="relative">
-        <div className="absolute -top-[18px] -left-[18px] w-[60px] h-[60px] rounded-full bg-coral z-0" />
-        <div className="relative z-[1] w-full aspect-[5/4] rounded-2xl shadow-[0_14px_34px_rgba(0,0,0,.10)] bg-card-border flex items-center justify-center overflow-hidden">
-          <span className="text-text-soft text-sm text-center px-4">
-            Foto da equipe / atuação em campo
-          </span>
-        </div>
-      </div>
     </section>
   );
 }
