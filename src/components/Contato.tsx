@@ -15,25 +15,19 @@ export default function Contato() {
         }}
       />
 
-      <h2 className="text-[clamp(28px,3.8vw,38px)] font-[900] text-white mb-[14px] tracking-[-0.02em] relative font-[family-name:var(--font-archivo)]">
+      <h2 className="text-[clamp(28px,3.8vw,38px)] font-[900] text-blue-500 mb-[14px] tracking-[-0.02em] relative font-[family-name:var(--font-archivo)]">
         Bora preservar a memória de Minas?
       </h2>
-      <p className="text-base text-[#B0B0A6] mx-auto mb-[30px] max-w-[440px] relative">
+      <p className="text-base text-orange-500 mx-auto mb-[30px] max-w-[440px] relative">
         Fale com a equipe do IACS sobre o seu projeto de restauração, conservação
         ou requalificação de patrimônio.
       </p>
       <div className="relative flex gap-[14px] justify-center flex-wrap">
         <a
           href="mailto:artes.insatituto@gmail.com"
-          className="bg-teal text-white px-[38px] py-4 rounded-full font-bold text-base hover:bg-white hover:text-ink transition-colors"
+          className="bg-black text-yellow-500 px-[38px] py-4 rounded-full font-bold text-base hover:bg-white hover:text-ink transition-colors"
         >
           artes.insatituto@gmail.com
-        </a>
-        <a
-          href="#"
-          className="border-2 border-[#4A4A44] text-white px-8 py-[14px] rounded-full font-bold text-base hover:border-teal hover:text-teal transition-colors"
-        >
-          (31) 0000-0000
         </a>
       </div>
     </section>

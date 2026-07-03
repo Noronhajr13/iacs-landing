@@ -1,36 +1,111 @@
-import Image from "next/image";
 import ProjetoCard from "./ProjetoCard";
 
 const projetos = [
   {
-    ano: "2022/2026",
+    ano: "2015/2026",
     titulo: "Pesquisa Histórica e Conservação de Acervos Documentais",
     subtitulo: "Arquivo Público Mineiro",
     cor: "var(--color-teal)",
-    imagem: "/arquivo-publico-mineiro.png",
+    imagem: "/APM.png",
   },
   {
-    ano: "2023/2025",
-    titulo: "Revitalização do complexo da Usina de Marmelos Zero",
-    subtitulo: "Restauração, conservação e segurança",
+    ano: "2020/2022",
+    titulo: "Revitalização do Arquivo Público Mineiro",
+    subtitulo: "Segurança e preservação do Conjunto Arquitetônico Documental. Secult/MG",
     cor: "var(--color-orange)",
-    imagem: "/usina-marmelos.png",
+    imagem: "",
   },
   {
-    ano: "2005/2026",
-    titulo: "Grupo Cultural Meninas de Sinhá",
-    subtitulo:
-      "Assistência social e cultural — Cantadeiras Meninas de Sinhá e atividades comunitárias",
-    cor: "var(--color-yellow)",
-    anoColor: "var(--color-yellow-text)",
-    imagem: "/meninas-de-sinha.png",
+    ano: "2025/2026",
+    titulo: "Projeto de Combate a Incêndio e Pânico do Complexo Cultural",
+    subtitulo: "AVCB Arquivo e Museu Mineiro, Plataforma Semente",
+    cor: "var(--color-yellow-text)",
+    imagem: "",
+  },
+  {
+    ano: "2024/2025",
+    titulo: "Revitalização e Conservação do Complexo Arquitetônico do Arquivo Púbico Mineiro",
+    subtitulo: " Secult/MG",
+    cor: "var(--color-teal)",
+    imagem: "",
+  },
+
+  {
+    ano: "2026",
+    titulo: "Projeto Reserva técnica e Atelier do Museu Mineiro",
+    subtitulo: "Plataforma Semente",
+    cor: "var(--color-orange)",
+    imagem: "",
   },
   {
     ano: "2025/2026",
     titulo: "Restauração Artística e Arquitetônica da Igreja Matriz de Santana",
     subtitulo: "Patos de Minas — MG. Restauração de elementos artísticos e da arquitetura do templo histórico.",
-    cor: "var(--color-blue-dot)",
-    imagem: "/igreja-matriz-patos.png",
+    cor: "var(--color-orange)",
+    imagem: "/IMP.png",
+  },
+  {
+    ano: "2023/2025",
+    titulo: "Revitalização do complexo da Usina de Marmelos Zero",
+    subtitulo: "Restauração, conservação e segurança",
+    cor: "var(--color-teal)",
+    imagem: "/USM.png",
+  },
+  {
+    ano: "2015/2026",
+    titulo: "Grupo Cultural Meninas de Sinhá",
+    subtitulo:
+      "Assistência social e cultural — Cantadeiras Meninas de Sinhá e atividades comunitárias",
+    cor: "var(--color-orange)",
+    imagem: "/MS.png",
+  },
+  {
+    ano: "2015/2026",
+    titulo: "Sabor da Memória",
+    subtitulo:
+      "Receitas Afetivas de Belo Horizonte FUMID, Fundo do Idoso",
+    cor: "var(--color-yellow-text)",
+    imagem: "",
+  },
+  {
+    ano: "2015/2026",
+    titulo: "Percebe-se para uma Felis Idade",
+    subtitulo:
+      "FUMID/Fundo do Idoso.",
+    cor: "var(--color-teal)",
+    imagem: "",
+  },
+  {
+    ano: "2015/2026",
+    titulo: "Semeando Saberes Ancestrais",
+    subtitulo:
+      "FUMID/Fundo do Idoso.",
+    cor: "var(--color-orange)",
+    imagem: "",
+  },
+  {
+    ano: "2024/2026",
+    titulo: "Espaço do Conhecimento da UFMG",
+    subtitulo:
+      "Continuidade da revitalização da exposição “Demasiado Humano” - Espaço do Conhecimento UFMG - Secult/MG revitalização da exposição “Demasiado Humano” - Espaço do Conhecimento UFMG",
+    cor: "var(--color-yellow-text)",
+    imagem: "",
+  },
+  {
+    ano: "2015/2026",
+    titulo: "Espaço do Conhecimento da UFMG - Lei Federal",
+    subtitulo:
+      "Cidadania cultural e inovação: ações formativas no Espaço do Conhecimento UFMG - Secult/MG",
+    cor: "var(--color-teal)",
+    imagem: "",
+  },
+  {
+    ano: "2026/2028",
+    titulo: "Plano Trienal do Espaço do Conhecimento da UFMG",
+    subtitulo:
+      "",
+    cor: "var(--color-orange)",
+    imagem: "",
   },
 ];
 

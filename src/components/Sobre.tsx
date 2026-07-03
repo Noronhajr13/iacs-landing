@@ -1,5 +1,5 @@
 const stats = [
-  { value: "8", label: "projetos", color: "text-teal" },
+  { value: "13", label: "projetos", color: "text-teal" },
   { value: "2015–26", label: "atuação", color: "text-orange" },
   { value: "MG", label: "Minas Gerais", color: "text-ink" },
 ] as const;
