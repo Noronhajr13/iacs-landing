@@ -13,21 +13,21 @@ const projetos = [
     titulo: "Revitalização do Arquivo Público Mineiro",
     subtitulo: "Segurança e preservação do Conjunto Arquitetônico Documental. Secult/MG",
     cor: "var(--color-orange)",
-    imagem: "",
+    imagem: "/APM_2.png",
   },
   {
     ano: "2025/2026",
     titulo: "Projeto de Combate a Incêndio e Pânico do Complexo Cultural",
     subtitulo: "AVCB Arquivo e Museu Mineiro, Plataforma Semente",
     cor: "var(--color-yellow-text)",
-    imagem: "",
+    imagem: "/APM_3.png",
   },
   {
     ano: "2024/2025",
     titulo: "Revitalização e Conservação do Complexo Arquitetônico do Arquivo Púbico Mineiro",
     subtitulo: " Secult/MG",
     cor: "var(--color-teal)",
-    imagem: "",
+    imagem: "/APM_4.png",
   },
 
   {
@@ -35,7 +35,7 @@ const projetos = [
     titulo: "Projeto Reserva técnica e Atelier do Museu Mineiro",
     subtitulo: "Plataforma Semente",
     cor: "var(--color-orange)",
-    imagem: "",
+    imagem: "/MM.png",
   },
   {
     ano: "2025/2026",
@@ -65,7 +65,7 @@ const projetos = [
     subtitulo:
       "Receitas Afetivas de Belo Horizonte FUMID, Fundo do Idoso",
     cor: "var(--color-yellow-text)",
-    imagem: "",
+    imagem: "/SM.png",
   },
   {
     ano: "2015/2026",
@@ -73,7 +73,7 @@ const projetos = [
     subtitulo:
       "FUMID/Fundo do Idoso.",
     cor: "var(--color-teal)",
-    imagem: "",
+    imagem: "/FI.png",
   },
   {
     ano: "2015/2026",
@@ -81,7 +81,7 @@ const projetos = [
     subtitulo:
       "FUMID/Fundo do Idoso.",
     cor: "var(--color-orange)",
-    imagem: "",
+    imagem: "/SSA.png",
   },
   {
     ano: "2024/2026",
@@ -89,7 +89,7 @@ const projetos = [
     subtitulo:
       "Continuidade da revitalização da exposição “Demasiado Humano” - Espaço do Conhecimento UFMG - Secult/MG revitalização da exposição “Demasiado Humano” - Espaço do Conhecimento UFMG",
     cor: "var(--color-yellow-text)",
-    imagem: "",
+    imagem: "/ECU.png",
   },
   {
     ano: "2015/2026",
@@ -97,7 +97,7 @@ const projetos = [
     subtitulo:
       "Cidadania cultural e inovação: ações formativas no Espaço do Conhecimento UFMG - Secult/MG",
     cor: "var(--color-teal)",
-    imagem: "",
+    imagem: "/ECU_2.png",
   },
   {
     ano: "2026/2028",
@@ -105,7 +105,7 @@ const projetos = [
     subtitulo:
       "",
     cor: "var(--color-orange)",
-    imagem: "",
+    imagem: "/ECU_3.png",
   },
 ];
 

@@ -2,7 +2,7 @@ export default function Contato() {
   return (
     <section
       id="contato"
-      className="bg-ink px-[clamp(20px,5vw,64px)] py-[clamp(56px,6vw,84px)] text-center relative overflow-hidden"
+      className="bg-teal px-[clamp(20px,5vw,64px)] py-[clamp(56px,6vw,84px)] text-center relative overflow-hidden"
     >
       <div className="absolute left-[6%] top-10 w-[60px] h-[60px] rounded-full bg-yellow opacity-90" />
       <div
@@ -15,17 +15,17 @@ export default function Contato() {
         }}
       />
 
-      <h2 className="text-[clamp(28px,3.8vw,38px)] font-[900] text-blue-500 mb-[14px] tracking-[-0.02em] relative font-[family-name:var(--font-archivo)]">
+      <h2 className="text-[clamp(28px,3.8vw,38px)] font-[900] text-white mb-[14px] tracking-[-0.02em] relative font-[family-name:var(--font-archivo)]">
         Bora preservar a memória de Minas?
       </h2>
-      <p className="text-base text-orange-500 mx-auto mb-[30px] max-w-[440px] relative">
+      <p className="text-base text-white mx-auto mb-[30px] max-w-[440px] relative">
         Fale com a equipe do IACS sobre o seu projeto de restauração, conservação
         ou requalificação de patrimônio.
       </p>
       <div className="relative flex gap-[14px] justify-center flex-wrap">
         <a
           href="mailto:artes.insatituto@gmail.com"
-          className="bg-black text-yellow-500 px-[38px] py-4 rounded-full font-bold text-base hover:bg-white hover:text-ink transition-colors"
+          className="bg-orange text-white px-[38px] py-4 rounded-full font-bold text-base hover:bg-yellow hover:text-black transition-colors"
         >
           artes.insatituto@gmail.com
         </a>
