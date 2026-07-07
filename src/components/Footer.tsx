@@ -12,10 +12,10 @@ export default function Footer() {
             <p>
               e-mail:{" "}
               <a
-                href="mailto:artes.insatituto@gmail.com"
+                href="mailto:artes.instituto@gmail.com"
                 className="text-teal hover:text-white transition-colors"
               >
-                artes.insatituto@gmail.com
+                artes.instituto@gmail.com
               </a>
             </p>
           </div>

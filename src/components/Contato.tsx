@@ -24,10 +24,10 @@ export default function Contato() {
       </p>
       <div className="relative flex gap-[14px] justify-center flex-wrap">
         <a
-          href="mailto:artes.insatituto@gmail.com"
+          href="mailto:artes.instituto@gmail.com"
           className="bg-orange text-white px-[38px] py-4 rounded-full font-bold text-base hover:bg-yellow hover:text-black transition-colors"
         >
-          artes.insatituto@gmail.com
+          artes.instituto@gmail.com
         </a>
       </div>
     </section>
